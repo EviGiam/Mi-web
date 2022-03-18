@@ -1,0 +1,835 @@
+	/* CSS Document */
+
+	body {
+		/*background-image: url(../img/pattern.png);*/
+		padding: 0;
+		margin: 0;
+		color: #545454;
+		font-size: 14px;
+		background: #7AF2BB;
+		font-family: 'Manuale', serif;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+	.pag_interna {
+		background: #fff!important;
+	}
+	:focus {
+		outline: 0;
+	}
+	.hidden {
+		display: none;
+	}
+	img{
+		max-width: 100%;
+	}
+
+	.navigation {
+		width: 100%;
+		position: fixed;
+		background: #fff;
+		z-index: 9999;
+	}
+	main {
+		display: none;
+	}
+	nav#drawer {
+		background-color: #fff;
+		padding: 0;
+		margin: 0;
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+		font-size: 1.2em;
+	}
+	#drawer div {
+		float: right;
+
+	}
+	nav#drawer ul {
+		display: table;
+		padding: 20px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	nav#drawer ul li {
+		display: inline-block;
+		padding: 20px;
+		vertical-align: middle;
+		font-size: 10px;
+	}
+
+	nav#drawer ul li.social {
+		padding-left: 0px;
+		padding-right: 3px;
+		margin: 0;
+	}
+
+	.brand {
+		float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    line-height: 1;
+		color:#000;
+}
+.brand a {
+	text-decoration: none;
+	color:#000;
+}
+	}
+	.brand img{
+		margin: 25px;
+	}
+	a {
+		text-decoration: none;
+	}
+	nav#drawer ul li a {
+		color:#999;
+		text-transform:uppercase;
+		font-size: 1.3em;
+		transition: color 0.5s;
+		text-decoration: none;
+	}
+	nav#drawer ul li a:hover {
+		text-decoration: none;
+		color:#999;
+	}
+	nav#drawer ul li a:visited {
+		text-decoration: none;
+		color:#999;
+	}
+	.padding{
+		padding: 20px 25px!important;
+	}
+	p {
+		color: #666666;
+		font-family: 'Lora', serif;
+		margin: 5px;
+	}
+	p span {
+		color: #4D4D4D;
+		font-weight: 500;
+	}
+	.container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.row > div {
+		padding: 0;
+		margin: 0;
+		transform: scale();
+		transition: transform 0.5s ease;
+	}
+	.proyect > div {
+		position: relative;
+	}
+	.content {
+		margin: 0 auto;
+		display: table;
+		max-width: 1344px;
+	}
+	#contact{
+		color: white;
+		padding: 35px 0px;
+		background-color: white;
+	}
+	#myform{
+		max-width: 850px;
+		margin: auto;
+	}
+
+	section {
+		border-top: 1px solid #EAEAEA;
+		z-index: 999;
+	}
+	section.video {
+		height: 700px;
+		background-image: url(../img/patternvideo.png);
+		background-repeat: repeat;
+		text-align: center;
+		width: 100%;
+	}
+	.patternvideo {
+		position: absolute;
+		background-image: url(../img/patternvideo.png);
+		background-repeat: repeat;
+		width: 100%;
+		height: 100%;
+		z-index: 8;
+	}
+	.whatwedo {
+		padding-bottom: 20px;
+		font-size: 2em;
+	}
+	.portfolio {
+		display: table;
+		width: 100%;
+		margin: 0 auto;
+		background-color:white;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#portfolio p{
+		width: 50%;
+		margin: auto;
+	}
+	a.work  {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+
+
+	a.work  img:hover  {
+		opacity: 0.3;
+		transition: opacity 0.3s;
+
+	}
+
+
+	a.work span{
+		position: absolute; top: 50%;
+	}
+	.uno:hover span{
+		opacity: 1;
+	}
+	/*.uno:hover span:after{
+	    content: 'Landingpage para Eko | <i>Empresa de productos de campo orgánicos.</i>';
+	 opacity: 1;
+	 }*/
+
+	 @keyframes back {
+	 	0% {
+	 		transform: background-color(#999);
+	 	}
+	 	100% {
+	 		transform:  background-color(#000);
+	 	}
+	 }
+
+	 .work h2{
+	 	color: #666666;
+	 	font-family: 'Dosis', sans-serif;
+	 	margin: 5px;
+	 	position: absolute;
+	 	top: 50%;
+	 	text-align: center;
+	 	width: 100%;
+	 	font-size: 3em;
+
+	 }
+
+	 .block {
+	 	padding: 0px;
+	 }
+	 .block div .social a {
+	 	color: #545454;
+	 	padding-left: 0;
+	 }
+
+	 .block div .social a span {
+	 	top: 8px;
+	 	position: relative;
+	 	left: 16px;
+		text-decoration: none!important;
+	 }
+
+.social a span {
+		text-decoration: none!important;
+	 }
+
+	 .block div .social a img{
+	 	width: 36px;
+	 	margin: 0;
+	 	float: left;
+	 }
+	 .space {
+	 	height: 50px;
+	 }
+
+	 .aboutus {
+	 	display: table;
+	 	width: 100%;
+	 	margin: 0 auto;
+
+
+	 }
+	 #aboutus{
+		/*background-image: url(../img/trianguloportfolio.png);
+		background-repeat: no-repeat;
+		background-position: center;*/
+		background-color: white;
+		padding: 20px 15px;
+	}
+	#aboutus p {
+    font-size: 18px;
+}
+#aboutus a {
+    text-decoration: underline;
+    color: #888;
+}
+	.social {
+		padding: 10px 0;
+		vertical-align: middle;
+		padding-left: 0px;
+	}
+	.name {
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.logosocial {
+		width: 50px;
+		height: 49px;
+		display: block;
+	}
+	.social a {
+		/*background-image: url(../img/sprite.png);*/
+		height: 37px;
+		display: block;
+		padding-left: 15px;
+		vertical-align: middle;
+		background-repeat: no-repeat;
+		color: white;
+		opacity:1;
+		text-decoration: none;
+		transition: opacity 0.3s;
+	}
+	.linkedin {
+		background-position: 0 -148px;
+	}
+	.vimeos {
+		background-position: 0 -222px;
+	}
+	.facebook {
+		background-position: 0 -74px;
+	}
+	.youtubes {
+		background-position: 0 0px;
+	}
+	.social a span {
+		top: 3px;
+		position: relative;
+		left: 20px;
+	}
+	.social a img {
+		width: 30px;
+	}
+
+	a:hover.linkedin {
+		background-position: 0 -185px;
+		color: white;
+		opacity:0.5;
+	}
+	a:hover.linkedin {
+		background-position: 0 -185px;
+		color: white;
+		opacity:0.5;
+	}
+	a:hover.vimeos {
+		background-position: 0 -259px;
+		color: white;
+		opacity:0.5;
+	}
+	a:hover.facebook {
+		background-position: 0 -111px;
+		color: white;
+		opacity:0.5;
+	}
+	a:hover.youtubes {
+		background-position: 0 -37px;
+		color: white;
+		opacity:0.5;
+	}
+	form label {
+		margin-bottom: 0px;
+		margin-top: 5px;
+		display: block;
+		padding: 7px;
+		color: #4b4b4b;
+		font-size: 13px;
+		font-weight: 100;
+		text-transform: uppercase;
+
+	}
+	form input {
+		background-color: #fff;
+		width: 100%;
+		padding: 10px;
+		color: #9c9797;
+		border-color: #EAEAEA;
+		font-family: 'Lora', serif;
+		font-size: 1em;
+		border: none;
+		border-bottom: solid 1px #4b4b4b;
+		transition: border 0.3s;
+
+	}
+	::-webkit-input-placeholder {
+		color: #e4e3e3;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		color: #e4e3e3;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		color:#e4e3e3;
+	}
+
+	:-ms-input-placeholder {
+		color: #e4e3e3;
+	}
+	form textarea {
+		background-color: #fff;
+		color: #9c9797;
+		width: 100%;
+		height: 50px;
+		padding: 10px;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: solid 1px #4b4b4b;
+		font-family: 'Lora', serif;
+		font-size: 1em;
+	}
+	form .button {
+		float: right;
+		display: block;
+		width: 40%;
+		margin-top: 7px;
+		color: #4b4b4b;
+		height: 42px;
+		font-weight: 700;
+		font-size: 1em;
+		border: none;
+		font-family: 'Montserrat', serif;
+		background: none;
+		vertical-align: middle;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+		background-color: #fff;
+		border: solid 1px #4b4b4b;
+	}
+	.button:hover {
+		border: solid 1px #828282;
+		color:#828282;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.button:focus {
+		outline: none;
+	}
+	.contact {
+		background-repeat: repeat;
+		color: #fff!important;
+		text-align: left;
+	}
+	#contact h2, #contact p, #contact h3, #contact h1{ text-align:center; color: #4b4b4b; }
+	.contact .content .block {
+		display: block;
+		float: left;
+		width: 300px;
+	}
+	.blockland span {
+		font-weight: 600;
+	}
+	.blockland {
+		width: 205px;
+		float: left;
+		padding: 0 44px;
+	}
+	.blockland .social a {
+		color: #fff!important;
+	}
+	h1 {
+		text-align: center;
+    padding: 20px 0;
+    color: #888;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+		font-weight: 600;
+	}
+	.goals h1 {
+		text-align: center;
+		padding: 20px 0;
+		color: #888;
+		font-size: 2em;
+		letter-spacing: 0.2em;
+		font-weight: 600;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+	footer{
+		background-color: #2b2b2b;
+		color: white;
+	}
+	section.copy{ border-top:0; }
+	.copy {
+		padding: 10px;
+		text-align: center;
+		background-color: #7df3b5;
+		font-size: 0.8em;
+	}
+	.copy a {
+		color: #fff;
+	}
+	.cleaner {
+		display: none;
+	}
+	.space1 {
+		height: 20px;
+	}
+	.demo {
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+		margin: 0 auto;
+		z-index: -2;
+	}
+	.logovideo {
+		position: relative;
+		top: 26	0px;
+	}
+	.logovideo img{ width:25%; height:100%; max-width:1030px; margin-top:280px;}
+	#result {
+		width: 280px;
+		padding: 10px;
+		border: 1px solid #bfcddb;
+		margin: auto;
+		margin-top: 10px;
+		text-align: center;
+	}
+	#resultfail {
+		width: 280px;
+		padding: 10px;
+		border: 1px solid #bfcddb;
+		margin: auto;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	@media (max-width: 768px){
+
+		.contact{
+			text-align: center;
+		}
+
+		.block div .social a{
+			color: #545454;
+			width: 130px;
+			margin: auto;
+		}
+
+		.block div .social a span {
+			top: 8px;
+			position: relative;
+			left: 16px;
+		}
+
+		.block div .social a img{
+			width: 36px;
+			margin: 0;
+			float: left;
+		}
+	}
+
+	@media (max-width: 1199px){
+
+		.block{
+			padding: 50px 80px;
+		}
+	}
+
+
+
+
+	main {
+		width: 100%;
+		height: 100%;
+	}
+	#menu {
+		width: 28px;
+		height: 28px;
+		margin: 20px;
+		display: block;
+		float: right;
+		z-index: 999999999999;
+		cursor: pointer;
+	}
+
+	nav#drawer {
+		width: 100%;
+		position: absolute;
+		/* This trasform moves the drawer off canvas. */
+		-webkit-transform: translate(-320px, 0);
+		transform: translate(-320px, 0);
+		/* Optionally, we animate the drawer. */
+		transition: transform 0.3s ease;
+	}
+	#drawer.open {
+		height: 700px;
+		    left: 0;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+
+	/********** Pagina de trabajo ***************/
+
+	.work_portfolio {
+		padding-top: 70px;
+	}
+	.work_portfolio h1{
+		text-align: left;
+		padding: 0;
+
+	}
+	.work_portfolio p{
+		text-align: left;
+		padding-bottom: 30px;
+		font-family: 'Lora', serif;
+		font-size: 18px;
+
+	}
+	.work_portfolio img{
+
+		padding-bottom: 30px;
+
+	}
+	.work_portfolio .button {
+		padding: 15px 5px;
+		margin-bottom: 35px;
+		max-width: 30%;
+		text-align: center;
+		display: block;
+		color: #4b4b4b;
+		font-weight: 700;
+		font-size: 1em;
+		font-family: 'Montserrat', serif;
+		background: none;
+		vertical-align: middle;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+		background-color: #fff;
+		border: solid 1px #4b4b4b;
+		text-decoration: none;
+	}
+	.work_portfolio .button:hover {
+		border: solid 1px #828282;
+		color:#828282;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.aside_portfolio{
+		padding-top: 100px;
+	}
+	.aside_portfolio h5{
+		color: #d4d2d2;
+		text-transform: uppercase;
+	}
+
+	.aside_portfolio nav ul li{
+		float: none;
+		display: block;
+
+	}
+	.aside_portfolio nav ul li a{
+text-transform: uppercase;
+		color: #d4d2d2;
+	}
+
+	@media (max-width: 990px){
+
+		.aside_portfolio{
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+
+
+		.aside_portfolio nav ul li{
+			display: inline-block;
+
+		}
+	}
+
+	/**************** MEDIA QUERIES *****************/
+
+	@media (min-width: 956px) {
+
+		/* We open the drawer. */
+		nav#drawer {
+			width: 100%;
+			position:relative;
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+
+		main {
+			width: auto;
+			/* Flex-grow streches the main content to fill all available space. */
+			flex-grow: 1;
+		}
+	}
+
+
+	@media (min-width: 956px) {
+		main > #menu:after {
+
+		}
+		main p, nav p {
+			text-decoration: line-through;
+		}
+
+		nav#drawer ul {
+			display: block;
+			padding: 0;
+			margin: 0 auto;
+			width: 100%;
+			margin-right: 20px;
+		}
+		li {
+			display: block;
+			float: none;
+			padding: 20px;
+			vertical-align: middle;
+		}
+	}
+
+	@media (max-width: 955px) {
+
+		main {
+			width: auto;
+			display: block;
+			/* Flex-grow streches the main content to fill all available space. */
+			flex-grow: 1;
+		}
+		nav#drawer ul li {
+			display: block;
+		}
+		nav#drawer{
+			top: 60px;
+			    left: -600px;
+		}
+		#drawer div {
+			float: left;
+			width: 320px;
+			transition: transform 0.3s ease;
+		}
+		.navigation{
+
+		}
+		.brand img {
+			margin: 25px 40px;
+		}
+		.social{
+			margin: 25px 0px;
+			padding: 0px;
+		}
+			#drawer ul li.social {
+				padding-left: 10px;
+				width: 30%;
+				float: left;
+			}
+
+	}
+
+
+
+	@media (min-width: 767px) {
+
+		.block img {
+			max-width: 200px;
+    display: block;
+    float: right;
+		}
+
+	}
+
+
+	@media (max-width: 767px){
+
+		.block {
+			padding: 30px 80px;
+		}
+		.block img{
+			margin: auto;
+			width: 230px;
+			display: block;
+		}
+		.name {
+			font-weight: 600;
+			font-size: 1.2em;
+			text-align: center;
+			padding-top: 30px;
+
+		}
+		.social{
+			margin: 15px auto;
+			padding: 0px;
+
+		}
+
+		.social a{
+			padding-left: 0px;
+
+		}
+
+		.block p { text-align: center; }
+	}
+
+	@media (max-width: 520px) {
+		video, .logovideo{}
+		.block {padding: 30px 30px;}
+		.work_portfolio .button { max-width: 100%;}
+		form .button {width: 100%;}
+		section.video {
+			padding-top: 79px;}
+			#portfolio p {
+				width: 90%;
+				margin: auto;
+			}
+			.logovideo img {
+    width: 65%;
+    height: 100%;
+    max-width: 1030px;
+    margin-top: 280px;
+}
+		}
+	@media (min-width: 520px) {
+
+
+		video, .logovideo{display: block;}
+		.novideo{display: none;}
+
+		}
+	@media (max-width: 320px) {
+
+			.brand img {
+				margin: 25px 25px;
+			}
+			.block {
+				padding: 30px 0px;
+			}
+		}
+.goals{
+	font-family: 'Lora', serif;
+    font-size: 18px;
+}
+.goals li {
+padding: 0px;
+display: list-item;
+
+}
